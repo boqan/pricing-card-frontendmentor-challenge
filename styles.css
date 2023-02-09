@@ -1,0 +1,156 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    color: white;
+}
+
+h2,h4,p{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.top-section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top-section h1{
+    color: #2ab2af;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.top-section p:nth-of-type(1){
+    color: #c0df34;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.top-section p:nth-of-type(2){
+    color:#98a6bd;
+}
+
+
+.bottom-section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.bottom-left-section {
+    width: 50%;
+    padding: 0;
+    background-color: #2ab2af;
+    padding: 30px;
+}
+
+
+.botton-left-section h2{
+    padding: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.bottom-left-section p{
+    margin-bottom: 15px;
+}
+
+.bottom-left-section-pricing{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.bottom-left-section-pricing h3{
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bottom-left-section-pricing p{
+    margin-left: 7px;
+    position: relative;
+    top: 15px;
+    color:#ffffff88;
+}
+
+
+.bottom-right-section {
+    width: 50%;
+    background-color: #2EBFBD;
+    padding: 25px;
+}
+
+button{
+    background-color: #c0df34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #A9C42D;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 0.8 rem;
+    opacity: 0.8;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+
+@media (max-width: 767px) {
+    .bottom-left-section, .bottom-right-section {
+      display: block;
+      width: 100%;
+      flex-basis: 100%;
+    }
+  }
